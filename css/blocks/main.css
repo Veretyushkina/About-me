@@ -262,7 +262,7 @@ color: #828282;
 }
 
 .desc__title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 section {
@@ -271,4 +271,141 @@ section {
 
 .skills__container {
   background: #f4f4f4;
+}
+
+.portfolio__title-section{
+  text-align: center;
+}
+
+.project {
+  position: relative;
+}
+
+.one-project__img {
+
+}
+
+.project__img {
+  width: 663px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.project__name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.block {
+  height: 600px;
+}
+
+.portfolio__container {
+  max-width: 1000px;
+  max-height: 3000px;
+ 
+}
+
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-container {
+  margin-top: auto;
+  
+}
+
+.footer-container__content {
+  border-top: 2px solid #828282;
+  margin-bottom: 40px;
+}
+
+.footer-container__section {
+  height: 146px;
+}
+
+.inner-footer__container {
+  padding: 20px 0px;
+}
+
+.inner-footer{
+margin-top: auto;
+}
+
+.socials {
+  margin-right: 34px;
+}
+
+.social__item {
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+
+.social_item:last-child {
+   margin-right: 0;
+}
+
+.social__link {
+   position: relative;
+   display: inline-block;
+   text-decoration: none;
+   height: 36px;
+   width: 36px;
+   background: center center no-repeat;
+}
+
+.social__item--ikon--tg .social__link {
+   background-image: url("../../img/icon/socials/t.png");
+   transition: .9s;
+}
+
+.social__item--ikon--tg .social__link:hover {
+   background-image: url("../../img/icon/socials/t-hover.png");
+   transition: .9s;
+}
+
+.social__item--ikon--vk .social__link {
+   background-image: url("../../img/icon/socials/vk.png");
+   transition: .9s;
+}
+
+.social__item--ikon--vk .social__link:hover {
+   background-image: url("../../img/icon/socials/vk-hover.png");
+   transition: .9s;
+}
+
+.social__item--ikon--inst .social__link {
+   background-image: url("../../img/icon/socials/in.png");
+   transition: .9s;
+}
+
+.social__item--ikon--inst .social__link:hover {
+   background-image: url("../../img/icon/socials/in-hover.png");
+   transition: .9s;
+}
+
+.contacts {
+  font-style: normal;
+  display: inline-block;
+  position: relative;
+}
+
+.contacts__desc {
+  font-size: 14px;
+  color: black;
 }
